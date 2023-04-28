@@ -6,7 +6,6 @@ Created on Fri Apr 28 18:06:59 2023
 """
 import streamlit as st
 import matplotlib.pyplot as plt
-import seaborn as sns
 import pandas as pd
 from pyxlsb import open_workbook as open_xlsb
 from sklearn.cluster import KMeans

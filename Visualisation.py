@@ -22,12 +22,12 @@ def convert_df(df):
 
 
 # Imports
-EScore=pd.read_excel(r"C:\Users\samym\OneDrive\Bureau\Travaux-ESG\data\EnvScore20202022.xlsx",index_col=0)
-GScore=pd.read_excel(r"C:\Users\samym\OneDrive\Bureau\Travaux-ESG\data\GouvScore20202022.xlsx",index_col=0)
-SocialScore=pd.read_excel(r"C:\Users\samym\OneDrive\Bureau\Travaux-ESG\data\SocialScore20202022.xlsx",index_col=0)
-Score=pd.read_csv(r"C:\Users\samym\OneDrive\Bureau\Travaux-ESG\data\Score.csv",index_col=0)
+EScore=pd.read_excel("data/EnvScore20202022.xlsx",index_col=0)
+GScore=pd.read_excel("data/GouvScore20202022.xlsx",index_col=0)
+SocialScore=pd.read_excel("data/SocialScore20202022.xlsx",index_col=0)
+Score=pd.read_csv("data/Score.csv",index_col=0)
 GlobalScore=Score.reindex(index=GScore.index)
-Symbols=pd.read_csv(r"C:\Users\samym\OneDrive\Bureau\Travaux-ESG\data\symbolsandIndustry.csv",index_col=0)
+Symbols=pd.read_csv("data/symbolsandIndustry.csv",index_col=0)
 
 
 

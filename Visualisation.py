@@ -4,7 +4,6 @@ Created on Fri Apr 28 18:06:59 2023
 
 @author: samym
 """
-from mpl_toolkits.mplot3d import axes3d  
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns

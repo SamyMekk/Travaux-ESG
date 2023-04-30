@@ -45,7 +45,7 @@ def user_input():
 SectorActivity=user_input()
 
 def user_input2():
-    option=st.sidebar.selectbox("Quelle période voulez-vous visualiser ? ",('Janvier 2020','Fevrier 2020','Mars 2020','Juillet 2020','Août 2020','Octobre 2020','Janvier 2021','Fevrier 2021','Mars 2021','Mai 2021','Septembre 2021','Fevrier 2022','Mai 2022'))
+    option=st.sidebar.selectbox("Quelle période voulez-vous visualiser ? ",('Janvier 2020','Février 2020','Mars 2020','Juillet 2020','Août 2020','Octobre 2020','Janvier 2021','Fevrier 2021','Mars 2021','Mai 2021','Septembre 2021','Fevrier 2022','Mai 2022'))
     return option
 
 Time=user_input2()

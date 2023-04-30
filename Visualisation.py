@@ -45,7 +45,7 @@ def user_input():
 SectorActivity=user_input()
 
 def user_input2():
-    option=st.sidebar.selectbox("Quelle période voulez-vous visualiser ? ",('Janvier 2020','Février 2020','Mars 2020','Juillet 2020','Août 2020','Octobre 2020','Janvier 2021','Fevrier 2021','Mars 2021','Mai 2021','Septembre 2021','Fevrier 2022','Mai 2022'))
+    option=st.sidebar.selectbox("Quelle période voulez-vous visualiser ? ",('Janvier 2020','Février 2020','Mars 2020','Juillet 2020','Août 2020','Octobre 2020','Janvier 2021','Février 2021','Mars 2021','Mai 2021','Septembre 2021','Fevrier 2022','Mai 2022'))
     return option
 
 Time=user_input2()
@@ -75,7 +75,7 @@ ax.legend()
 # Design a slider to choose which simulation to show 
 
 
-DictionnaireValeur={'Janvier 2020':0,'Février 2020' : 1 ,'Mars 2020':2,'Juillet 2020':3,'Août 2020':4,'Octobre 2020':5,'Janvier 2021':6,'Fevrier 2021':7,'Mars 2021':8,'Mai 2021':9,'Septembre 2021':10,'Fevrier 2022':11,'Mai 2022':12}
+DictionnaireValeur={'Janvier 2020':0,'Février 2020' : 1 ,'Mars 2020':2,'Juillet 2020':3,'Août 2020':4,'Octobre 2020':5,'Janvier 2021':6,'Février 2021':7,'Mars 2021':8,'Mai 2021':9,'Septembre 2021':10,'Fevrier 2022':11,'Mai 2022':12}
 Number=DictionnaireValeur[Time]
 ax.cla()
 ax.scatter(FullData[Number][FullDataPredict[Number] == 0,0],FullData[Number][FullDataPredict[Number] == 0,1],FullData[Number][FullDataPredict[Number] == 0,2], s = 40 , color = 'blue', label = "cluster 0")

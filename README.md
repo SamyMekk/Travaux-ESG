@@ -19,5 +19,5 @@ Le repo se structurera de la manière suivante :
 
 J'y ai également ajouté un fichier main.py qui permettra d'effectuer une mini visualisation de la répartition des notations ESG au sein du S&P 500 par période et par cluster. Cette dernière sera directement accessible via l'URL suivante et l'utilisation du package "streamlit" de Python :
 
-https://samymekk-rate-models-modelisationvasicek-ry73x8.streamlit.app/
+https://samymekk-travaux-esg-visualisation-pk3y1i.streamlit.app/
 

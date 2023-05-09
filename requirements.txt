@@ -4,5 +4,5 @@ matplotlib==3.6.0
 numpy==1.23.3
 scikit-learn==1.1.2
 openpyxl
-matplotlib
 pyxlsb
+altair==4.0.0
